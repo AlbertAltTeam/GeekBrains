@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/my_project.csproj": {}
+    "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/my_project.csproj": {}
   },
   "projects": {
-    "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/my_project.csproj": {
+    "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/my_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/my_project.csproj",
+        "projectUniqueName": "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/my_project.csproj",
         "projectName": "my_project",
-        "projectPath": "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/my_project.csproj",
+        "projectPath": "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/my_project.csproj",
         "packagesPath": "/Users/albertzakirov/.nuget/packages/",
-        "outputPath": "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/",
+        "outputPath": "/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/albertzakirov/.nuget/NuGet/NuGet.Config"
