@@ -1,0 +1,60 @@
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/bin/Debug/net7.0/my_project
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/bin/Debug/net7.0/my_project.deps.json
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/bin/Debug/net7.0/my_project.runtimeconfig.json
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/bin/Debug/net7.0/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/bin/Debug/net7.0/my_project.pdb
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/my_project.csproj.AssemblyReference.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/my_project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/my_project.AssemblyInfoInputs.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/my_project.AssemblyInfo.cs
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/my_project.csproj.CoreCompileInputs.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/refint/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/my_project.pdb
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/my_project.genruntimeconfig.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Промежуточная аттестация/my_project/obj/Debug/net7.0/ref/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/bin/Debug/net7.0/my_project
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/bin/Debug/net7.0/my_project.deps.json
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/bin/Debug/net7.0/my_project.runtimeconfig.json
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/bin/Debug/net7.0/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/bin/Debug/net7.0/my_project.pdb
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/my_project.csproj.AssemblyReference.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/my_project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/my_project.AssemblyInfoInputs.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/my_project.AssemblyInfo.cs
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/my_project.csproj.CoreCompileInputs.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/refint/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/my_project.pdb
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/my_project.genruntimeconfig.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/04. Итоги блока. Выбор специализации. IT-специалист/Итоговая проверочная работа/my_project/obj/Debug/net7.0/ref/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/bin/Debug/net7.0/my_project
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/bin/Debug/net7.0/my_project.deps.json
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/bin/Debug/net7.0/my_project.runtimeconfig.json
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/bin/Debug/net7.0/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/bin/Debug/net7.0/my_project.pdb
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/my_project.csproj.AssemblyReference.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/my_project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/my_project.AssemblyInfoInputs.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/my_project.AssemblyInfo.cs
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/my_project.csproj.CoreCompileInputs.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/refint/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/my_project.pdb
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/my_project.genruntimeconfig.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/my_project/obj/Debug/net7.0/ref/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/bin/Debug/net7.0/my_project
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/bin/Debug/net7.0/my_project.deps.json
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/bin/Debug/net7.0/my_project.runtimeconfig.json
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/bin/Debug/net7.0/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/bin/Debug/net7.0/my_project.pdb
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/my_project.csproj.AssemblyReference.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/my_project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/my_project.AssemblyInfoInputs.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/my_project.AssemblyInfo.cs
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/my_project.csproj.CoreCompileInputs.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/refint/my_project.dll
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/my_project.pdb
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/my_project.genruntimeconfig.cache
+/Users/albertzakirov/www/my_gb/GeekBrains/02. Знакомство с языками программирования (семинары)/Урок 9. Как не нужно писать код. Часть 3/Домашняя работа/Задача 68/obj/Debug/net7.0/ref/my_project.dll
