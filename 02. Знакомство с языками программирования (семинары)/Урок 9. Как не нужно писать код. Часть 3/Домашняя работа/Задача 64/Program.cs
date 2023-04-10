@@ -7,16 +7,26 @@ class Program {
 
     string result = "\"\""; // добавляем 2 кавычки (просто как в примере, может это лишнее :) )
 
-    for(int i = (int)M; i <= (int)N; i++) {
-      result += i;
-
-      if(i != (int)N) {
-        result += ", ";
-      }
-    }
+    result += GetRangeString((int)M, (int)N);
 
     result += "\"\""; // добавляем 2 кавычки (просто как в примере, может это лишнее :) )
 
     Console.WriteLine(result); // выводим результат на экран (""5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18"")
+  }
+
+  static string GetRangeString(int start, int end)
+  {
+      if(start == end)
+      {
+          return start.ToString();
+      }
+      else if(start > end)
+      {
+          return "";
+      }
+      else
+      {
+          return start + ", " + GetRangeString(start+1, end);
+      }
   }
 }
