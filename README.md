@@ -9,6 +9,7 @@ these are my works on the course "Digital Professions" on the educational portal
 ## 04. Итоги блока. Выбор специализации. IT-специалист - https://gb.ru/lessons/262907/homework
 ## 05. Гибкие методологии (Agile, SCRUM, Канбан и другие) (семинары) - https://gb.ru/lessons/308452/homework - дедлайн до 25 мая
 ## 06. Знакомство с веб-технологиями (семинары) -  https://gb.ru/lessons/304212/homework - дедлайн до 25 мая
+## 07. JavaScript (семинары)
 
 # Домашняя работа
 
