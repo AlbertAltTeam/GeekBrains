@@ -1,2 +1,2 @@
 let test = true;
-test === true ? console.log('+++') : console.log('---');
+test ? console.log('+++') : console.log('---');
