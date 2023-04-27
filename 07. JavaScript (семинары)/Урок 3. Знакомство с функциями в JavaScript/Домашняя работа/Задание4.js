@@ -14,8 +14,6 @@ function divide(a, b) {
     return b === 0 ? 0 : a / b;
 }
 
-
-
 console.log(sum(2, 6)); // 8
 console.log(difference(3, 3)); // 0
 console.log(difference(5, 3)); // 2
