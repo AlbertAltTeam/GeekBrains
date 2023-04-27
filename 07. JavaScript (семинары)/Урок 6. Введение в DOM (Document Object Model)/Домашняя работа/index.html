@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Обязательное задание</title>
+    <meta charset="utf-8" http-equiv="Content-Type" content="text/html;" />
+  </head>
+  <body>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title" data-number="100">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text" data-number="50">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" id="super_link" class="card-link">Card link</a>
+        <a href="#" class="card-link" data-number="50">Another link</a>
+      </div>
+    </div>
+
+    <script>
+      // 1 Найти по id, используя getElementById, элемент с id равным "super_link" и вывести этот элемент в консоль.
+      const superLink = document.getElementById("super_link");
+      console.log(1, superLink);
+
+      // 2 Внутри всех элементов на странице, которые имеют класс "card-link", поменяйте текст внутри элемента на "ссылка".
+      const cardLinks = document.querySelectorAll(".card-link");
+      cardLinks.forEach((link) => (link.textContent = "ссылка"));
+
+      // 3 Найти все элементы на странице с классом "card-link", которые лежат в элементе с классом "card-body" и вывести полученную коллекцию в консоль.
+      const cardBodyLinks = document.querySelectorAll(".card-body .card-link");
+      console.log(3, cardBodyLinks);
+
+      // 4 Найти первый попавшийся элемент на странице у которого есть атрибут data-number со значением 50 и вывести его в консоль.
+      const firstNumFiftyEl = document.querySelector("[data-number='50']");
+      console.log(4, firstNumFiftyEl);
+
+      // 5 Выведите содержимое тега title в консоль.
+      console.log(`5 содержимое тега title: ${document.title}`);
+
+      // 6 Получите элемент с классом "card-title" и выведите его родительский узел в консоль.
+      const cardTitle = document.querySelector(".card-title");
+      console.log(6, cardTitle.parentNode);
+
+      // 7 Создайте тег p`, запишите внутри него текст "Привет" и добавьте созданный тег в начало элемента, который имеет класс "card".
+      const newP = document.createElement("p");
+      newP.textContent = "Привет";
+      const card = document.querySelector(".card");
+      card.insertBefore(newP, card.firstChild);
+
+      // 8 Удалите тег h6 на странице.
+      const h6 = document.querySelector("h6");
+      h6.parentNode.removeChild(h6);
+    </script>
+  </body>
+</html>
