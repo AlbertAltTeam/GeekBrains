@@ -1,7 +1,6 @@
-// Создайте функцию которая возводит переданное число в куб, необходимо вывести в консоль результат 2^3 степени + 3 ^ 3 степени
-function cubeAndSum(num) {
-  const result = Math.pow(num, 3) + Math.pow(2, 3) + Math.pow(3, 3);
-  console.log(`Результат: ${result}`);
+function cube(num) {
+  return Math.pow(num, 3);
 }
 
-cubeAndSum(5);
+const result = cube(2) + cube(3);
+console.log(result); // Выведет 35
