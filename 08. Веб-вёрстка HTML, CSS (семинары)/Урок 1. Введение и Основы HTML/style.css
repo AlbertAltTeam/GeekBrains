@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+}
+
+a.menu-link {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1.main-header {
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+h2.sub-header {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+h3.product-title {
+    font-size: 1.2em;
+    color: #5c6264;
+  }
+  
+
+p.main-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.contact-item {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}

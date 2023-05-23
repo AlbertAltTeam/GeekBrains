@@ -1,0 +1,56 @@
+$site-width: 1146px;
+$color-buttons: #3A68B8;
+$delay: 1s;
+
+
+@mixin icon($fs, $mr) {
+    font-size: $fs;
+    margin-right: $mr;
+   }
+
+@mixin text-box ($mw, $mt) {
+    max-width: $mw;
+    margin-top: $mt;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.mini-box {
+    width: 362px;
+    height: 389px;
+    border-radius: 10px;
+    background-color: #132035;
+}
+
+.picture-mini {
+    padding: 30px 132px;
+}
+
+.text-h1 {
+    padding: 0 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.text-h2 {
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+

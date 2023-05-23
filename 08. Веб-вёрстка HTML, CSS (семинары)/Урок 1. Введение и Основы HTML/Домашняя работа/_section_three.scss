@@ -1,0 +1,57 @@
+.section-three {
+    background-color:  #020a18;
+}
+.conteiner-three {
+    max-width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.left-box {
+    @extend .mini-box;
+}
+
+.left-title {
+    @extend .text-h1;
+}
+
+.picture-one {
+    @extend .picture-mini;
+}
+
+.left-dsc {
+    @extend .text-h2;
+}
+
+.average-box {
+    @extend .mini-box;
+}
+
+.average-title {
+    @extend .text-h1;
+}
+
+.picture-two {
+    @extend .picture-mini;
+}
+
+.average-dsc {
+    @extend .text-h2;
+}
+
+.right-box {
+    @extend .mini-box;
+}
+
+.right-title {
+    @extend .text-h1;
+}
+
+.picture-three {
+    @extend .picture-mini;
+}
+
+.right-dsc {
+    @extend .text-h2;
+}

@@ -1,0 +1,19 @@
+.conteiner-flex {
+    max-width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #08101d;
+}
+.logo {
+    margin-top: 197px;
+    margin-bottom: 99px;
+}
+
+.logo-pic:hover {
+    transform: translateX(-40px) scale(1.2)
+}
+
+.logo-pic {
+transition: $delay;
+}

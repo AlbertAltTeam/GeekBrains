@@ -1,0 +1,83 @@
+.section-four {
+    background-color:  #020a18;
+}
+.conteiner-four {
+    width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.big-box {
+    margin-top: 30px;
+    width: 754px;
+    height: 808px;
+    border-radius: 10px;
+    background-color: #132035;
+}
+
+.picture-four {
+    margin-top: 30px;
+    margin-left: 224px;
+}
+
+.big-title {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 694px;
+    height: 62px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.big-dsc {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 694px;
+    height: 130px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.line-one-box {
+    margin-top: 30px;
+    @extend .mini-box;
+}
+
+.line-one-pic {
+    @extend .picture-mini;
+}
+
+.line-one-title {
+    @extend .text-h1;
+}
+
+.line-one-dsc {
+    @extend .text-h2;
+}
+
+.line-two-box {
+    margin-top: 30px;
+    @extend .mini-box;
+}
+
+.line-two-pic {
+    @extend .picture-mini;
+}
+
+.line-two-title {
+    @extend .text-h1;
+}
+
+.line-two-dsc {
+    @extend .text-h2;}

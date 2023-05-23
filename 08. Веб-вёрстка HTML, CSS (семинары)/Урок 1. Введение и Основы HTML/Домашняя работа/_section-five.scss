@@ -1,0 +1,46 @@
+.section-five {
+    background-color: #020a18;
+}
+
+.conteiner-five {
+    max-width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.left-five-box {
+    margin-top: 257px;
+}
+
+.one-title-five {
+   max-width: 548px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.one-dsc-five {
+    @include text-box (460px, 40px);
+}
+
+.two-dsc-five {
+    @include text-box (460px, 20px);
+}
+
+.three-dsc-five {
+    @include text-box (460px, 20px);
+}
+
+.four-dsc-five {
+    @include text-box (460px, 20px);
+}
+
+.right-five-pic {
+    margin-top: 243px;
+    margin-bottom: 221px;
+}

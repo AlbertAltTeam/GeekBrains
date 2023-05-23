@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #08101d;
+}
+@import"vars_extend_mixin";
+@import"header";
+@import"main";
+@import"section_logo";
+@import"section_two";
+@import"section_three";
+@import"section_four";
+@import"section-five";
+@import"footer";
+@import"tablet_ver";
+@import"mobile_ver";
+
