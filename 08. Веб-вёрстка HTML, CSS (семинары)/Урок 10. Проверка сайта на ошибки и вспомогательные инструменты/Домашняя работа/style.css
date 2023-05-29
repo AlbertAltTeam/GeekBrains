@@ -31,7 +31,7 @@ body {
   background-color: #08101d;
 }
 
-.mini-box, .line-two-box, .line-one-box, .right-box, .average-box, .left-box {
+.line-two-box, .line-one-box, .right-box, .average-box, .left-box {
   width: 362px;
   height: 389px;
   border-radius: 10px;
