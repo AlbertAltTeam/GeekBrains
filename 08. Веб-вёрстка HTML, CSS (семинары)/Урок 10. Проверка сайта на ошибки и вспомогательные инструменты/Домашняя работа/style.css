@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@keyframes vibrate-1 {
+@keyframes vibrate {
   0% {
     transform: translate(0);
   }
@@ -90,7 +90,6 @@ body {
 
 .header-link:hover {
   color: #3A68B8;
-  transform: translateX(10px);
 }
 
 .header-nav {
@@ -162,7 +161,7 @@ body {
   color: #3A68B8;
   background-color: transparent;
   border: 1px solid #3A68B8;
-  transform: scale(1.2);
+  transform: scale(1);
 }
 
 .button-link {
@@ -210,7 +209,7 @@ body {
   color: #3A68B8;
   background-color: transparent;
   border: 1px solid #3A68B8;
-  transform: scale(1.2);
+  transform: scale(1);
   transform: rotate(0, 30deg);
 }
 
@@ -236,7 +235,7 @@ body {
 }
 
 .logo-pic:hover {
-  transform: translateX(-40px) scale(1.2);
+  animation: vibrate 0.5s linear infinite both;
 }
 
 .logo-pic {
@@ -306,7 +305,7 @@ body {
 }
 
 .button-section-box:hover {
-  animation: vibrate-1 0.3s linear infinite both;
+  transform: translateX(20px);
 }
 
 .button-section-box {
@@ -846,4 +845,4 @@ body {
   .icons {
     margin-left: 15px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
