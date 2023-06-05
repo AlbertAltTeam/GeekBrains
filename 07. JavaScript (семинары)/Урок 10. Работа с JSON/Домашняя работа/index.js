@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let loadedProducts = 0;
 
   const apiKey = "AIzaSyBE_nCFGQK8LnQDJlB1GmStFQhWe4Sbrp4"
-  const clientId = "1oWDIHPSkir03arfVHHRUm2fX_Vh_dxOCJxlwrSprNyg"
+  const spreadsheetId = "1oWDIHPSkir03arfVHHRUm2fX_Vh_dxOCJxlwrSprNyg"
   const listName = "GB"
 
   const infoElement = document.getElementById("ajax-info");
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const nextRowCount = 10;
       rangeStart = rangeEnd;
       rangeEnd += nextRowCount;
-      loadData(rangeStart, rangeEnd, apiKey, clientId, listName, onSuccess, onError);
+      loadData(rangeStart, rangeEnd, apiKey, spreadsheetId, listName, onSuccess, onError);
       productCard.style.width = products.length * 210 + "px";
     }
   }
@@ -108,5 +108,5 @@ document.addEventListener("DOMContentLoaded", function () {
   const productCardContainer = document.querySelector(".product-card-container");
   productCardContainer.addEventListener("scroll", checkLoadMore);
 
-  loadData(rangeStart, rangeEnd, apiKey, clientId, listName, onSuccess, onError);
+  loadData(rangeStart, rangeEnd, apiKey, spreadsheetId, listName, onSuccess, onError);
 });
