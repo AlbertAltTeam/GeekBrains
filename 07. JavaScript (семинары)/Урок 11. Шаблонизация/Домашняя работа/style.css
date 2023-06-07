@@ -1,90 +1,132 @@
-* {
-    margin: 0;
-    padding: 0;
+.title {
+  text-align: center;
+  color: #222222;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
 }
 
-.product__box {
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 40px;
+.subtitle {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
 }
 
-.product {
-    position: relative;
+.container-wrapper {
+  display: grid;
+  place-items: center;
 }
 
-.btn__del {
-    position: absolute;
-    top: 28px;
-    right: 22px;
-    width: 18px;
-    height: 18px;
-    font-size: 0;
-    border: none;
-    background: none;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(img/cross.svg);
-    cursor: pointer;
+/* Стили для контейнера-грида */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 360px);
+  gap: 30px;
+  justify-items: center;
+  justify-content: flex-start;
+  /* Изменено свойство для прижатия карточек */
+  max-width: 1140px;
+  /* Ограничение ширины контейнера-грида */
+  margin: 0 auto;
+  /* Центрирование контейнера-грида по горизонтали */
+  padding: 20px;
+  /* Добавлен отступ вокруг контейнера-грида */
 }
 
-.product__img {
-    width: 262px;
+/* Стили для карточки товара */
+.item {
+  width: 360px;
+  height: 581px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f8f8;
 }
 
-.product__desc {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    color: #575757
+.item img {
+  width: 360px;
+  height: 420px;
 }
 
-.product__name {
-    margin-bottom: 42px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #222222;
+/* ELLERY X M'O CAPSULE */
+
+.item .name {
+  width: 100%;
+  height: 16px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  padding-left: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 16px;
+  margin-right: 30px;
 }
 
-.product__price{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    color: #EF5B70;
+/* Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi. */
 
+.item .description {
+  width: 100%;
+  height: 51px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  padding-left: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 16px;
+  margin-right: 30px;
 }
 
-.input__quantity {
-    width: 50px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    color: #656565;
-    text-align: center;
-    border: 1px solid #EAEAEA
+/* $52.00 */
+
+.item .price {
+  width: 100%;
+  height: 19px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+  padding-left: 10px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: 16px;
+  margin-right: 30px;
+  margin-bottom: 16px;
 }
 
-.product__qty {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 24px;
-
-}
-
-.product__desc {
-    padding: 22px 100px 62px 30px;
-}
-
-.product__content {
-    display: flex;
-    width: 650px;
-    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+.browse-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 211px;
+  height: 47px;
+  border: 1px solid #ff6a6a;
+  margin-top: 48.5px;
+  margin-bottom: 95.5px;
+  line-height: 47px;
+  color: #f26376;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
 }
