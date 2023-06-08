@@ -3,10 +3,10 @@ fetch('data.json')
   .then(products => {
 
     // Rest of your code that depends on the product
-    var itemsContainer = document.getElementById('itemsContainer');
-    var browseBtn = document.getElementById('browseBtn');
-    var currentIndex = 0;
-    var itemsPerPage = 6;
+    let itemsContainer = document.getElementById('itemsContainer');
+    let browseBtn = document.getElementById('browseBtn');
+    let currentIndex = 0;
+    let itemsPerPage = 6;
 
     // Function to generate item HTML
     function generateItemHTML(product) {
@@ -22,8 +22,8 @@ fetch('data.json')
 
     // Function to add items to the container
     function addItemsToContainer(startIndex, endIndex) {
-      var itemsHTML = '';
-      for (var i = startIndex; i < endIndex; i++) {
+      let itemsHTML = '';
+      for (let i = startIndex; i < endIndex; i++) {
         if (i >= products.length) break;
         itemsHTML += generateItemHTML(products[i]);
       }
@@ -36,7 +36,7 @@ fetch('data.json')
     // Event listener for Browse All Products button
     browseBtn.addEventListener('click', function () {
       currentIndex += itemsPerPage;
-      var endIndex = currentIndex + itemsPerPage;
+      let endIndex = currentIndex + itemsPerPage;
       addItemsToContainer(currentIndex, endIndex);
       if (endIndex >= products.length) {
         browseBtn.style.display = 'none';
