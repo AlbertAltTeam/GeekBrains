@@ -1,0 +1,35 @@
+[
+    {
+        "label": "man",
+        "url": "#",
+        "subItems": [
+            { "label": "Accessories", "url": "#" },
+            { "label": "Bags", "url": "#" },
+            { "label": "Denim", "url": "#" },
+            { "label": "T-Shirts", "url": "#" }
+        ]
+    },
+    {
+        "label": "woman",
+        "url": "#",
+        "subItems": [
+            { "label": "Accessories", "url": "#" },
+            { "label": "Jackets & Coats", "url": "#" },
+            { "label": "Polos", "url": "#" },
+            { "label": "T-Shirts", "url": "#" },
+            { "label": "Shirts", "url": "#" }
+        ]
+    },
+    {
+        "label": "kid",
+        "url": "#",
+        "subItems": [
+            { "label": "Accessories", "url": "#" },
+            { "label": "Jackets & Coats", "url": "#" },
+            { "label": "Polos", "url": "#" },
+            { "label": "T-Shirts", "url": "#" },
+            { "label": "Shirts", "url": "#" },
+            { "label": "Bags", "url": "#" }
+        ]
+    }
+]

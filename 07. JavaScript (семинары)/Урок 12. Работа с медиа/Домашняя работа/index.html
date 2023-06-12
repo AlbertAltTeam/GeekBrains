@@ -5,21 +5,239 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/poster.css">
+    <link rel="stylesheet" href="styles/promo.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/fi.css">
+    <link rel="stylesheet" href="styles/ci.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/feature.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
-    <section>
-        <div>
-            <div class="title">Featured Items</div>
-            <div class="subtitle">Shop for items based on what we featured this week</div>
+    <header id="header" class="header">
+
+        <div class="logo-container">
+            <a href="./index.html" class="logo-link-container">
+                <img class="header-menu-logo-svg" src="svg/logo.svg" alt="logo">
+            </a>
         </div>
-        <div id="itemsContainer" class="container"></div>
-        <div class="browse-btn" id="browseBtn">Browse All Products</div>
-        <script type="module" src="index.js"></script>
+
+        <div class="search-container">
+            <img id="searchIcon" class="search-icon" src="svg/search.svg" alt="search">
+            <input type="text" class="search-input" placeholder="Search" autofocus>
+        </div>
+
+        <div class="nav-menu-container">
+            <img id="navMenuIcon" class="nav-menu-icon" src="svg/menuButton.svg" alt="search">
+        </div>
+
+        <div class="user-container">
+            <img id="userIcon" class="user-icon" src="svg/user.svg" alt="search">
+        </div>
+
+        <div class="cart-container" id="cartLink">
+            <div class="cart-icon-container">
+                <img id="cartIcon" class="cart-icon" src="svg/cart.svg" alt="cart">
+                <div id="cartCount" class="cart-count"></div>
+            </div>
+        </div>
+
+
+        <nav class="nav-menu">
+            <div class="menu-header">
+                <span class="menu-title">menu</span>
+            </div>
+            <ul class="menu-list"></ul>
+        </nav>
+    </header>
+
+    <main class="poster">
+        <div class="left-container">
+            <img id="man" class="man" src="svg/man.svg" alt="man">
+        </div>
+        <div class="right-container">
+            <div class="inner-container">
+                <div class="rectangle"></div>
+                <div class="text-container">
+                    <div class="brand-text">THE BRAND</div>
+                    <div class="fashion-text">OF LUXURIOUS <span class="highlighted">FASHION</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="promo-section">
+        <article class="promo-container">
+            <div class="promo-column-container">
+                <a href="#" class="promo-column">
+                    <div class="promo-text-container">
+                        <p>30% OFF</p>
+                        <h2>FOR WOMAN</h2>
+                    </div>
+                    <div class="background"></div>
+                    <img src="svg/promo1.svg" alt="Promo 1">
+                </a>
+                <a href="#" class="promo-column">
+                    <div class="promo-text-container">
+                        <p>HOT DEAL</p>
+                        <h2>FOR MAN</h2>
+                    </div>
+                    <div class="background"></div>
+                    <img src="svg/promo2.svg" alt="Promo 2">
+                </a>
+                <a href="#" class="promo-column">
+                    <div class="promo-text-container">
+                        <p>NEW ARRIVALS</p>
+                        <h2>FOR KIDS</h2>
+                    </div>
+                    <div class="background"></div>
+                    <img src="svg/promo3.svg" alt="Promo 3">
+                </a>
+            </div>
+        </article>
+
+        <article class="promo-bottom-container">
+            <a href="#" class="promo-column-bottom">
+                <div class="promo-text-container">
+                    <p>LUXIROUS & TRENDY</p>
+                    <h2>ACCESORIES</h2>
+                </div>
+                <div class="background-bottom"></div>
+                <img src="svg/promo4.svg" alt="Promo 1">
+            </a>
+        </article>
     </section>
 
+    <section class="fi-section">
+        <div class="fi-container">
+            <div class="fi-header">
+                <div class="fi-title">Featured Items</div>
+                <div class="fi-subtitle">Shop for items based on what we featured this week</div>
+            </div>
+            <div id="itemsContainer" class="fi-column-container"></div>
+            <div class="browse-btn" id="browseBtn">Browse All Products</div>
+        </div>
+
+    </section>
+
+    <section class="feature">
+        <div class="feature-wrap-container">
+            <div class="feature-description">
+                <img src="./svg/form_icon_1.svg" class="feature-img" alt="Feature 1" />
+                <h5 class="feature-title">Free Delivery</h5>
+                <p class="feature-text">
+                    Worldwide delivery on&nbsp;all. Authorit tively morph<wbr />
+              next-generation innov tion with extensive models.
+                </p>
+            </div>
+            <div class="feature-description">
+                <img src="./svg/form_icon_2.svg" class="feature-img" alt="Feature 1" />
+                <h5 class="feature-title">Sales & discounts</h5>
+                <p class="feature-text">
+                    Worldwide delivery on&nbsp;all. Authorit tively morph<wbr />
+              next-generation innov tion with extensive models.
+                </p>
+            </div>
+            <div class="feature-description">
+                <img src="./svg/form_icon_3.svg" class="feature-img" alt="Feature 1" />
+                <h5 class="feature-title">Quality assurance</h5>
+                <p class="feature-text">
+                    Worldwide delivery on&nbsp;all. Authorit tively morph<wbr />
+              next-generation innov tion with extensive models.
+                </p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+    <section class="ci-section">
+        <div class="ci-container">
+            <div class="ci-header">
+                <div class="ci-title">Cart Items</div>
+            </div>
+            <div class="ci-item"></div>
+        </div>
+    </section>
+
+
+    <!-- Footer сайта -->
+    <footer class="footer">
+        <!-- Отзывы и регистрация -->
+        <section class="footer-review">
+            <div class="footer-review-info-container">
+                <article class="footer-review-info-comment">
+                    <img src="./img/form_photo.png" alt="" class="footer-review-info-comment-userpic" />
+                    <p class="footer-review-info-comment-text">
+                        &#8220;Vestibulum quis porttitor dui! Quisque<wbr /> viverra
+                nunc&nbsp;mi,
+                        <span class="footer-review-info-comment-text-mark">a&nbsp;pulvinar purus
+                            <wbr /> condimentum</span>&#8221;
+                    </p>
+                </article>
+
+                <div class="footer-review-subscribe">
+                    <h2>subscribe</h2>
+                    <p class="footer-review-subscribe-txt">
+                        for our newletter and promotion
+                    </p>
+                    <form class="footer-review-subscribe-form">
+                        <input type="email" class="footer-review-subscribe-form-input" placeholder="Enter Your Email"
+                            aria-label="Enter Your Email" aria-describedby="button-submit" />
+                        <button class="footer-review-subscribe-form-btn" type="submit" id="button-submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Права и Соиальные сети -->
+        <section class="footer-info-container">
+            <div class="footer-info-rights">
+                &copy; 2021 Brand All Rights Reserved.
+            </div>
+            <div class="footer-info-social">
+                <ul class="footer-info-social-list">
+                    <li class="footer-info-social-list-item">
+                        <a href="https://www.facebook.com/geekbrains.ru" class="footer-info-social-list-item-link">
+                            <img src="svg/footerInfo1.svg" alt="icon-facebook">
+                        </a>
+                    </li>
+
+                    <li class="footer-info-social-list-item">
+                        <a href="https://www.instagram.com/geekbrains.ru/"
+                            class="footer-info-social-list-item-link icon-instagram">
+                            <img src="svg/footerInfo2.svg" alt="icon-instagram">
+                        </a>
+                    </li>
+
+                    <li class="footer-info-social-list-item">
+                        <a href="https://www.pinterest.ru/geekbrainsdesignhistory/"
+                            class="footer-info-social-list-item-link icon-pinterest">
+                            <img src="svg/footerInfo3.svg" alt="icon-pinterest">
+                        </a>
+                    </li>
+
+                    <li class="footer-info-social-list-item">
+                        <a href="https://twitter.com/geekbrains__ru"
+                            class="footer-info-social-list-item-link icon-twitter">
+                            <img src="svg/footerInfo4.svg" alt="icon-twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <script type="module" src="scripts/fi.js"></script>
+    <script type="module" src="scripts/ci.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/nav.js"></script>
 </body>
 
 </html>
