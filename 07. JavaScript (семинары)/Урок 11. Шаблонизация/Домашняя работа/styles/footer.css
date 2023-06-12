@@ -1,0 +1,297 @@
+.footer {
+  width: 100%;
+  margin: 96px auto 0 0;
+  background: #222224;
+}
+
+.footer-review {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(244, 244, 244, 0.5)),
+      to(rgba(244, 244, 244, 0.5))
+    ),
+    url(../img/form_bg.jpg);
+  background-image: linear-gradient(
+      180deg,
+      rgba(244, 244, 244, 0.5),
+      rgba(244, 244, 244, 0.5)
+    ),
+    url(../img/form_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-review-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-review-info-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "lato-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: 30%;
+}
+
+.footer-review-info-comment-userpic {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.footer-review-info-comment-text {
+  padding-top: 20px;
+  text-align: center;
+  color: #222224;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.footer-review-info-comment-text-mark {
+  font-style: italic;
+}
+
+.footer-review-subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #222224;
+  text-transform: uppercase;
+}
+
+.footer-review-subscribe > h2 {
+  font-family: "lato-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.2%;
+  /* or 40px */
+}
+
+.footer-review-subscribe-txt {
+  display: block;
+  font-family: "lato-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167.2%;
+}
+
+.footer-review-subscribe-form {
+  margin-top: 32px;
+  font-family: "lato-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.footer-review-subscribe-form-input {
+  border-radius: 23px 0 0 23px;
+  background-color: #e1e1e1;
+  border: 1px solid #e1e1e1;
+  padding: 15px 85px 15px 28px;
+  margin: -5px;
+}
+
+.footer-review-subscribe-form-input:hover {
+  border: 1px solid #e6677893;
+  background: #e1e1e1;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-review-subscribe-form-input:hover::-webkit-input-placeholder {
+  color: #e6677893;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-review-subscribe-form-input:hover:-ms-input-placeholder {
+  color: #e6677893;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-review-subscribe-form-input:hover::-ms-input-placeholder {
+  color: #e6677893;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-review-subscribe-form-input:hover::placeholder {
+  color: #e6677893;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-review-subscribe-form-btn {
+  background: #f16d7f;
+  border: 1px solid #f16d7f;
+  border-radius: 0 23px 23px 0;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  padding: 16px 17px;
+}
+
+.footer-review-subscribe-form-btn:hover {
+  background: #ffffff;
+  color: #f16d7f;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+
+.footer-review-subscribe-form-btn:active {
+  background: #f16d7f;
+  color: #ffffff;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-info-rights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "lato-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+
+.footer-info-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer-info-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-info-social-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  background-color: #eff0f5;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info-social-list-item:hover {
+  background-color: #f16d7f;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+
+.footer-info-social-list-item:hover .icon {
+  fill: #fff;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-info-social-list-item:active {
+  background-color: #eff0f5;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-info-social-list-item:active .icon {
+  fill: #000;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.footer-info-social-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  outline: none;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}

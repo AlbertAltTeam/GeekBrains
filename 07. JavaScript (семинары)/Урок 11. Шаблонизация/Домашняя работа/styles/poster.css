@@ -1,0 +1,84 @@
+.poster {
+    max-height: 100%;
+    padding-top: 75px;
+    background-color: #F1E4E6;
+    display: flex;
+  }
+  
+  .poster::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .poster .left-container {
+    flex: 1;
+    max-height: 764px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .poster .left-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .poster .right-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .poster .inner-container {
+    display: flex;
+    align-items: center;
+    margin-left: 6vw;
+  }
+  
+  .poster .rectangle {
+    width: 12px;
+    height: 93px;
+    background-color: #F16D7F;
+  }
+  
+  .poster .text-container {
+    margin-left: 12px;
+  }
+  
+  .poster .brand-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 52.8px;
+    color: #222222;
+  }
+  
+  .poster .fashion-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #222222;
+  }
+  
+  .poster .highlighted {
+    color: #F16D7F;
+  }
+  
+  /* Медиазапрос для ширины экрана меньше 768px */
+  @media (max-width: 767px) {
+    .poster .left-container {
+      display: none;
+    }
+    
+    .poster .right-container {
+      flex: 1;
+      height: 363px;
+      justify-content: center;
+    }
+    
+    .poster .inner-container {
+      margin-left: 0;
+    }
+  }
