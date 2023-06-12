@@ -4,14 +4,17 @@ import { getCartItems, removeById } from './cart.js';
 export async function updateCart() {
   const productData = getCartItems();
   const cartCount = document.getElementById('cartCount');
+  const cartSection = document.getElementById('ciSection');
 
   if (productData.length === 0) {
     cartCount.style.display = 'none';
+    cartSection.style.display = 'none';
   } else {
+    cartSection.style.display = 'flex';
     cartCount.style.display = 'flex';
     cartCount.textContent = productData.length;
   }
-  
+
   cartCount.textContent = productData.length;
   const productBox = document.querySelector('.ci-item');
   productBox.innerHTML = '';

@@ -55,6 +55,7 @@ fetch('data/products.json')
 
     document.addEventListener('click', function (event) {
       if (event.target.classList.contains('add-to-cart-btn')) {
+        event.target.classList.add('shake');
         let productId = event.target.dataset.productId;
         let itemIndex = products.findIndex(item => item.id == productId);
 
