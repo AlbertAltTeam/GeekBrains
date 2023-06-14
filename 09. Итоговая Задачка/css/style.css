@@ -851,7 +851,7 @@ body{
   }
   .footer_icons svg 
   {
-    fill:gray;
+    fill: #8794BA;
     transition: transform 0.8s;
   }
 
@@ -1388,7 +1388,7 @@ body{
   }
   .footer_icons svg 
   {
-    fill:gray;
+    fill: #8794BA;
     transition: transform 0.8s;
   }
   .logogFooter
